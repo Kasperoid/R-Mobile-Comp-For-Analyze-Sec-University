@@ -1,5 +1,10 @@
 package com.ustinov_i_a_pz_1
 
+import com.ustinov_i_a_pz_1.threadinfo.ThreadInfoPackage
+import com.ustinov_i_a_pz_1.agejob.AgeJobPackage;
+import com.ustinov_i_a_pz_1.crypto.CryptoLoaderPackage;
+import com.ustinov_i_a_pz_1.workmanager.RNWorkManagerPackage;
+
 import android.app.Application
 import com.facebook.react.PackageList
 import com.facebook.react.ReactApplication
@@ -18,6 +23,10 @@ class MainApplication : Application(), ReactApplication {
             PackageList(this).packages.apply {
               // Packages that cannot be autolinked yet can be added manually here, for example:
               // add(MyReactNativePackage())
+              add(ThreadInfoPackage())
+              add(AgeJobPackage());
+              add(CryptoLoaderPackage());
+              add(RNWorkManagerPackage());
             }
 
         override fun getJSMainModuleName(): String = "index"
