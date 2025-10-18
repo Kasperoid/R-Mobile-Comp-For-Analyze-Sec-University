@@ -5,6 +5,7 @@ import PracticeTwo from './Pr2/PracticeTwo';
 import PracticeThree from './Pr3/PracticeThree';
 import PracticeFour from './Pr4/PracticeFour';
 import PracticeFive from './Pr5/PracticeFive';
+import PracticeSix from './Pr6/PracticeSix';
 
 const Drawer = createDrawerNavigator();
 
@@ -17,6 +18,7 @@ const MyDrawer = () => {
       <Drawer.Screen name="Practice3" component={PracticeThree} />
       <Drawer.Screen name="Practice4" component={PracticeFour} />
       <Drawer.Screen name="Practice5" component={PracticeFive} />
+      <Drawer.Screen name="Practice6" component={PracticeSix} />
     </Drawer.Navigator>
   );
 }

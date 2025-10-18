@@ -11,7 +11,7 @@ const HomeScreen = () => {
           justifyContent: 'space-between',
         }}
       >
-        <Text style={{fontSize: 20, textAlign: 'center'}}>Практики 1-3 выполнил студент БИСО-01-21</Text>
+        <Text style={{fontSize: 20, textAlign: 'center'}}>Практики 1-6 выполнил студент БИСО-01-21</Text>
         <Text style={{fontSize: 20, fontWeight: 800, textAlign: 'center'}}>Устинов Иван Александрович</Text>
       </View>
     </SafeAreaView>
