@@ -24,6 +24,10 @@ import TaskFourFour from './Pr4/TaskFourFour'
 import TaskFiveFour from './Pr4/TaskFiveFour'
 import TaskSixFour from './Pr4/TaskSixFour'
 
+import TaskOneFive from './Pr5/TaskOneFive'
+import TaskTwoFive from './Pr5/TaskTwoFive'
+import TaskThreeFive from './Pr5/TaskThreeFive'
+
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator();
@@ -60,6 +64,10 @@ function RootStack() {
       <Stack.Screen name="Pr4_Ex4" component={TaskFourFour} />
       <Stack.Screen name="Pr4_Ex5" component={TaskFiveFour} />
       <Stack.Screen name="Pr4_Ex6" component={TaskSixFour} />
+
+      <Stack.Screen name="Pr5_Ex1" component={TaskOneFive} />
+      <Stack.Screen name="Pr5_Ex2" component={TaskTwoFive} />
+      <Stack.Screen name="Pr5_Ex3" component={TaskThreeFive} />
     </Stack.Navigator>
   );
 }
