@@ -32,19 +32,23 @@ import TaskOneSix from './Pr6/TaskOneSix'
 import TaskTwoSix from './Pr6/TaskTwoSix'
 import TaskThreeSix from './Pr6/TaskThreeSix'
 
+import TaskOneSeven from './Pr7/TaskOneSeven'
+import TaskTwoSeven from './Pr7/TaskTwoSeven'
+import TaskThreeSeven from './Pr7/TaskThreeSeven'
+
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator();
 
 function RootStack() {
   return (
-    <Stack.Navigator initialRouteName="Main">
+    <Stack.Navigator initialRouteName="Pr7_Ex3">
       <Stack.Screen 
         name="Main" 
         component={MyDrawer}
         options={{ headerShown: false }}
       />
-
+      
       <Stack.Screen name="Home" component={HomeScreen} />
       <Stack.Screen name="Pr1_Ex1" component={TaskOne} />
       <Stack.Screen name="Pr1_Ex2" component={TaskSecond} />
@@ -76,6 +80,10 @@ function RootStack() {
       <Stack.Screen name="Pr6_Ex1" component={TaskOneSix} />
       <Stack.Screen name="Pr6_Ex2" component={TaskTwoSix} />
       <Stack.Screen name="Pr6_Ex3" component={TaskThreeSix} />
+
+      <Stack.Screen name="Pr7_Ex1" component={TaskOneSeven} />
+      <Stack.Screen name="Pr7_Ex2" component={TaskTwoSeven} />
+      <Stack.Screen name="Pr7_Ex3" component={TaskThreeSeven} />
     </Stack.Navigator>
   );
 }

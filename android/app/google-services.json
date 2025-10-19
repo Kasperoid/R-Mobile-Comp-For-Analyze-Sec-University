@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1031574039795",
+    "project_id": "unibase-a0a3a",
+    "storage_bucket": "unibase-a0a3a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031574039795:android:9abc6243281789c09a1b86",
+        "android_client_info": {
+          "package_name": "com.ustinov_i_a_pz_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC38-VjN6C7WBMk_3W91ts3mbjehqckPUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
